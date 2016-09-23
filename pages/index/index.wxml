@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="container">
+<!--head-->
+  <view class="header">
+        <view class="header_inner ui-bottom-line">
+            <view class="header_info ui-flex-justify-center">
+                <view class="header_left">
+                    <image class="header-left-img" src="http://www.jimstyle.cn/dist/images/f9a08d5a00256cd3053a9b825ad5ff46.png" background-size="cover"></image>
+                </view>
+                <view class="header_right">
+                    <text class="head-a">电影</text>
+                    <text class="head-a head-a2">图书</text>
+                    <text class="head-a head-a3">广播</text>
+                    <text class="head-a head-a4">小组</text>
+                    <text bindtap="bindViewTap" class="head-a-last"></text>
+                </view>
+            </view>
+        </view>
+  </view>
+<!--nav-->
+  <view class="nav">
+        <view class="nav-ui clearfix">
+             <view class="nav-li"><text class="nav-a">影院热映</text></view>
+             <view class="nav-li"><text class="nav-a">跳蚤市场</text></view>
+             <view class="nav-li"><text class="nav-a">美好的事情</text></view>
+             <view class="nav-li"><text class="nav-a">使用豆瓣App</text></view>
+        </view>
+  </view>
+<!--list-->
+  <view class="info">
+     <view class="ui-bottom-line info-inner">
+           <view class="info_head ui-flex-align">
+                        <view class="ui-flex-left info_head_l">
+                            <image src="https://img1.doubanio.com/icon/u80964086-7.jpg" background-size="cover"></image>
+                        </view>
+                        <view class="ui-flex-1 info_head_m">猫仔😉</view>
+                        <view class="info_head_r">
+                            <text class="rspan">音乐</text>
+                        </view>
+                    </view>
+                    <view class="info_main ui-flex">
+                        <view class="ui-flex-1 info_main_l">
+                            <view class="line-3">所谓现场被人诟病，那么就在录音棚里找回自信。</view>
+                        </view>
+                        <view class="info_main_r">
+                            <image class="img" src="https://img3.doubanio.com/lpic/s28948395.jpg" background-size="cover"></image>
+                        </view>
+                    </view>
+                    <view class="info_foot">
+                        <view class="line-6">先简单概括一下这一张专辑：有趣且自信。记得BritneyJean时期有人发推问制作人这张专辑Britney的声音会不会被处理过度，当时制作人回复是不会让她的声音被过度处理，还原最真实的britney的声音。如果说BJ时期是一...</view>
+                        <view class="info_feed">
+                            <text class="likers_num"></text>
+                            <text class="like-num">15</text>
+                            <text class="comment_num"></text>
+                            <text class="com-num">2</text>
+                        </view>
+              </view>     
+      </view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+

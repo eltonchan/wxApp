@@ -1,0 +1,149 @@
+/**index.wxss**/
+.header{   
+    position: relative;
+    background: transparent;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    width:100%;
+}
+.header_inner{
+    padding: 20rpx;
+    margin: 0 auto;
+    background: #fff;
+}
+.header-left-img{
+  height: 44rpx;
+  width: 92rpx;
+}
+.header_info {
+    height: 44rpx;
+}
+.header_right .head-a {
+    margin-left: 25rpx;
+    font-size: 28rpx;
+    color: #2384E8;
+}
+.header_right .head-a2{
+    color: #9F7860;
+}
+.header_right .head-a3{
+    color: #E4A813;
+}
+.header_right .head-a4{
+    color: #9F7860;
+}
+.header_right .head-a-last{
+    display: inline-block;
+    width: 48rpx;
+    height: 36rpx;
+    margin-left:25rpx;
+    background: url(http://www.jimstyle.cn/dist/images/f915e0412dba3292965bfbbd124781c5.png) no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: 6rpx;
+}
+
+.nav{
+  padding: 20rpx 30rpx;
+}
+.nav-li{
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    padding: 6rpx;
+}
+.nav-li .nav-a {
+    background-color: #f6f6f6;
+    color: #494949;
+    display: block;
+    text-align: center;
+    line-height: 40rpx;
+    padding: 24rpx 0;
+    border-radius: 4rpx;
+}
+.info{
+  padding: 20rpx 0;
+}
+
+.info-inner{
+  padding:0 20rpx;
+}
+.info_head_l {
+    width: 36rpx;
+    height: 36rpx;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.info_head_m {
+    font-size: 24rpx;
+    color: #494949;
+    padding-left: 12rpx;
+}
+
+.info_head_r .rspan {
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.info_main {
+    padding: 20rpx 0;
+}
+.info_main_l .line-3 {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-right: 0.4rem;
+    color: #494949;
+    text-indent: 10px;
+}
+.info_main_r {
+    width: 140rpx;
+    height: 140rpx;
+}
+.info_main_r .img{
+    width: 140rpx;
+    height: 140rpx;
+}
+.info_foot .line-6 {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.info_feed {
+    padding: 20rpx 0 10rpx;
+}
+.info_feed .likers_num {
+    display: inline-block;
+    width: 24rpx;
+    height: 24rpx;
+    vertical-align: middle;
+    margin-right: 8rpx;
+    margin-top: -2rpx;
+    background: url(https://img3.doubanio.com/f/talion/625409635d46500ea6f2f461cbb19cf657c09683/pics/card/ic_like_feed.svg) center no-repeat;
+}
+
+.info_feed .comment_num {
+    display: inline-block;
+    width: 24rpx;
+    height: 24rpx;
+    vertical-align: middle;
+    margin-right: 8rpx;
+    margin-top: -2rpx;
+    margin-left: 8rpx;
+    background: url(https://img3.doubanio.com/f/talion/3c568730f3142cfd7fb2de8a3938fb960ccb475c/pics/card/ic_comments_feed.svg) center no-repeat;
+}
+
+.info_feed .like-num {
+    font-size: 12px;
+    color: #d4d4d4;
+}
+.info_feed .com-num {
+    font-size: 12px;
+    color: #d4d4d4;
+}
